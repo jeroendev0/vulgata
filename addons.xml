@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addons>
-    <addon id="plugin.video.vulgata" name="[B][COLOR blue]VULGATA[/COLOR][/B]" version="1.0.2" provider-name="[B]jeroendev[/B]">
+    <addon id="plugin.video.vulgata" name="[B][COLOR blue]VULGATA[/COLOR][/B]" version="1.0.3" provider-name="[B]jeroendev[/B]">
         <requires>
             <import addon="xbmc.python" version="3.0.0" />
             <import addon="script.module.requests" />
