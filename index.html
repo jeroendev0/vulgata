@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="color-scheme" content="dark">
+    <meta name="description" content="Instale o repositório Vulgata no Kodi e receba as próximas atualizações.">
+    <title>Vulgata Repo</title>
+    <link rel="icon" href="plugin.video.vulgata/resources/media/icon.jpg">
+    <style>
+        * { box-sizing: border-box; }
+        body { margin: 0; background: #101113; color: #f1f1f2; font: 16px/1.6 -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
+        a { color: inherit; text-decoration: none; }
+        a:focus-visible { outline: 3px solid #a7bfff; outline-offset: 5px; }
+        .shell { max-width: 900px; margin: auto; padding: 44px 28px 28px; }
+        header { display: flex; align-items: center; justify-content: space-between; gap: 20px; }
+        .brand { display: flex; align-items: center; gap: 12px; font-size: 15px; font-weight: 750; letter-spacing: .1em; }
+        .brand img { width: 38px; height: 38px; object-fit: cover; border-radius: 10px; }
+        .brand span { color: #92949c; font-weight: 400; letter-spacing: 0; }
+        .badge { padding: 5px 12px; border: 1px solid #2b2d32; border-radius: 99px; color: #a4a6ae; font-size: 12px; white-space: nowrap; }
+        main { padding: 94px 0 66px; }
+        .eyebrow { margin: 0 0 18px; color: #8eaaff; font-size: 11px; font-weight: 750; letter-spacing: .17em; text-transform: uppercase; }
+        h1 { max-width: 640px; margin: 0; font-size: clamp(38px, 6vw, 59px); font-weight: 700; letter-spacing: -.055em; line-height: 1.12; }
+        .intro { max-width: 520px; margin: 23px 0 34px; color: #a4a6ae; font-size: 17px; }
+        .actions { display: flex; align-items: center; flex-wrap: wrap; gap: 12px; }
+        .button { display: inline-flex; align-items: center; justify-content: center; gap: 12px; padding: 13px 22px; border: 1px solid #35373e; border-radius: 7px; font-size: 14px; font-weight: 650; background: #191a1e; transition: background .15s; }
+        .button:hover { background: #25262b; }
+        .primary { background: #8eaaff; border-color: #8eaaff; color: #101113;  }
+        .primary:hover { background: #aec1ff; }
+        .version { margin: 14px 0 0; color: #92949c; font-size: 12px; }
+        .steps { display: grid; grid-template-columns: repeat(3, 1fr); gap: 28px; padding: 30px 0; border-top: 1px solid #2b2d32; border-bottom: 1px solid #2b2d32; }
+        .number { display: block; margin-bottom: 12px; color: #92949c; font-size: 11px; font-weight: 650; letter-spacing: .1em; }
+        h2 { margin: 0 0 5px; font-size: 14px; font-weight: 650; }
+        .steps p { margin: 0; color: #a4a6ae; font-size: 13px; line-height: 1.65; }
+        footer { display: flex; justify-content: space-between; gap: 20px; padding-top: 26px; color: #92949c; font-size: 11px; }
+        footer nav { display: flex; gap: 18px; }
+        footer a:hover { color: #8eaaff; }
+        @media (max-width: 580px) {
+            .shell { padding: 26px 22px; }
+            main { padding: 62px 0 44px; }
+            .intro { font-size: 16px; }
+            .actions { align-items: stretch; flex-direction: column; }
+            .steps { grid-template-columns: 1fr; gap: 24px; padding: 26px 0; }
+            .number { margin-bottom: 5px; }
+            footer { flex-direction: column; gap: 10px; }
+        }
+        @media (prefers-reduced-motion: reduce) { .button { transition: none; } }
+    </style>
+</head>
+<body>
+    <div class="shell">
+        <header>
+            <a class="brand" href="./" aria-label="Vulgata Repo, início">
+                <img src="plugin.video.vulgata/resources/media/icon.jpg" alt="" width="38" height="38">
+                VULGATA <span>/ Repo</span>
+            </a>
+            <span class="badge">Kodi 19+</span>
+        </header>
+        <main>
+            <p class="eyebrow">Seu repositório para Kodi</p>
+            <h1>Instale uma vez.<br>Fique por dentro.</h1>
+            <p class="intro">Adicione o repositório Vulgata ao seu Kodi e receba as próximas atualizações do addon.</p>
+            <div class="actions">
+                <a class="button primary" href="repository.vulgata/repository.vulgata-1.0.0.zip" download>Baixar repositório <span aria-hidden="true">↓</span></a>
+                <a class="button" href="plugin.video.vulgata/plugin.video.vulgata-1.0.0.zip" download>Baixar addon</a>
+            </div>
+            <p class="version">Addon v1.0.0 <span aria-hidden="true">·</span> Repositório v1.0.0</p>
+        </main>
+        <section class="steps" aria-label="Como instalar">
+            <article>
+                <span class="number">01</span>
+                <h2>Baixe o repositório</h2>
+                <p>Salve o arquivo ZIP no dispositivo em que você usa o Kodi.</p>
+            </article>
+            <article>
+                <span class="number">02</span>
+                <h2>Instale no Kodi</h2>
+                <p>Em Add-ons, selecione “Instalar a partir de um arquivo ZIP”.</p>
+            </article>
+            <article>
+                <span class="number">03</span>
+                <h2>Encontre o Vulgata</h2>
+                <p>Abra “Instalar via repositório” e mantenha as atualizações automáticas ativadas.</p>
+            </article>
+        </section>
+        <footer>
+            <span>Vulgata Repo</span>
+            <nav aria-label="Arquivos do repositório">
+                <a href="addons.xml">Catálogo</a>
+                <a href="addons.xml.md5">MD5</a>
+                <a href="addons.xml.sha256">SHA-256</a>
+            </nav>
+        </footer>
+    </div>
+    <div style="display:none" aria-hidden="true">
+        <table>
+            <tr><td><a href="repository.vulgata/repository.vulgata-1.0.0.zip">repository.vulgata/repository.vulgata-1.0.0.zip</a></td></tr>
+            <tr><td><a href="plugin.video.vulgata/plugin.video.vulgata-1.0.0.zip">plugin.video.vulgata/plugin.video.vulgata-1.0.0.zip</a></td></tr>
+            <tr><td><a href="addons.xml">addons.xml</a></td></tr>
+            <tr><td><a href="addons.xml.md5">addons.xml.md5</a></td></tr>
+            <tr><td><a href="addons.xml.sha256">addons.xml.sha256</a></td></tr>
+        </table>
+    </div>
+</body>
+</html>
