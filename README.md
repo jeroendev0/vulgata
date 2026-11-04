@@ -1,15 +1,4 @@
-# VULGATA para Kodi
-
-Filmes, séries, animes, documentários e TV ao vivo em um só addon.
-
-## Recursos
-
-- Pesquisa de conteúdo.
-- Capas e navegação por categorias.
-- Escolha entre dublado e legendado quando disponível.
-- Seleção de qualidade nos canais ao vivo.
-- Atualizações pelo repositório.
-- Compatível com Kodi 19 ou superior.
+# VULGATA 
 
 ## Instalação pelo gestor de ficheiros
 
